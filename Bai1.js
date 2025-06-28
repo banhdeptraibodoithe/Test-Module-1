@@ -17,6 +17,5 @@ for (let i = 0; i < input; i++) {
             b.push(number);
     }
 }
-console.log("Mảng a " + a);
-console.log("Mảng b " + b);
+document.getElementById("result").innerHTML = `Mảng a: ${a}<br>Mảng b: ${b}`;
 

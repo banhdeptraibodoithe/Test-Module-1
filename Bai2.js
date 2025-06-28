@@ -6,4 +6,8 @@ function checkEquals(tso1, tso2, mso1, mso2) {
     return false;
 }
 
-console.log(checkEquals(1, 4, 5, 20));
+let tso1 = +prompt("Nhập tử số 1");
+let tso2 = +prompt("Nhập tử số 2");
+let mso1 = +prompt("Nhập mẫu số 1");
+let mso2 = +prompt("Nhập mẫu số 2");
+alert(checkEquals(tso1, tso2, mso1, mso2));
