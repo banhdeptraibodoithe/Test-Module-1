@@ -91,6 +91,14 @@ function themSTK() {
         alert("Họ tên tối đa 30 ký tự");
         return;
     }
+    if (cmnd < 0) {
+        alert("CMND không hợp lệ");
+        return;
+    }
+    if (money < 1) {
+        alert("Số tiền gửi không hợp lệ");
+        return;
+    }
     for (let i = 0; i < soTietKiem.length; i++) {
         if (soTietKiem[i].maSo == code) {
             alert("Mã số đã tồn tại");
