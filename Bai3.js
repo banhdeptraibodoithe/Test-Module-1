@@ -69,7 +69,7 @@ function navTothemSTK() {
         <input type="number" placeholder="Số tiền gửi" id="money">
         <br>
         <br>
-        <button onclick="themSTK()">Thêm sổ mới/button>
+        <button onclick="themSTK()">Thêm sổ mới</button>
     `;
 }
 function themSTK() {
