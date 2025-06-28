@@ -8,7 +8,7 @@ while (true) {
 for (let i = 0; i < input; i++) {
     let number = +prompt("Nhập phần tử thứ " + (i + 1));
     a.push(number);
-    if (number == 1 || number == 2)
+    if (number == 2)
         b.push(number);
     for (let j = 2; j < number; j++) {
         if (number % j == 0)
